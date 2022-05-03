@@ -78,8 +78,60 @@ body{
 
 /*Inro style Start*/
 .intro{
-    height: 100vh;
-    background: url(../img/intro_bg.jpg);
+    min-height: 100vh;
+    background: url(../img/intro_bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
 }
+.intro_title{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+    max-width: 619px;
+    margin-bottom: 22px;
+}
+.intro_subtitle{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 546px;
+    margin-bottom: 59px;
+}
+.search_form_info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search_form_field{
+    background: transparent url(../img/circle_icon.svg) no-repeat left 6px;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.search_form_field::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.search_form_submit{
+    padding: 15px 39px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background: #1B7DFF;
+    border:0;
+
+}
+.search_form_submit:hover,.search_form_submit:active,.search_form_submit:focus{
+    background: #0e66da;
+}
+
 /*Intro style End*/
