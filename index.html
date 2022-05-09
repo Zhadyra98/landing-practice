@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" href="./css/reset.css">
     <link rel= "stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/fav_icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/fav_icon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/fav_icon//favicon-16x16.png">
+    <link rel="manifest" href="./img/fav_icon//site.webmanifest">
+    <link rel="mask-icon" href="./img/fav_icon//safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
     <title>Discover Amazing places in Japan</title>
 </head>
 <body>
@@ -19,16 +26,16 @@
                 <nav class="header_nav">
                     <ul class="header_list">
                         <li class="header_item">
-                            <a href="#!" class="header_link">Articles</a>
+                            <a href="#articles" class="header_link js-scroll">Articles</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Locations</a>
+                            <a href="#locations" class="header_link js-scroll">Locations</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Videos</a>
+                            <a href="#videos" class="header_link js-scroll">Videos</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Sign in</a>
+                            <a href="#sign_in" class="header_link js-scroll">Sign in</a>
                         </li>
                     </ul>
                     <div class="header_nav_close">
@@ -45,7 +52,7 @@
         </div>
     </header>
     <main class="main">
-        <section class="intro">
+        <section class="intro" id="sign_in">
             <div class="wrapper">
                 <h1 class="intro_title">Discover Amazing places in Japan</h1>
                 <p class="intro_subtitle">
@@ -168,9 +175,9 @@
                 </div>
             </div>
         </section>
-        <div class="tours">
-            <div class="wrapper_full">
 
+        <div class="tours" id="articles">
+            <div class="wrapper_full">
                 <div class="tours_tour tour">
                     <div class="tour_pic">
                         <img src="./img/tour1.jpg" alt="Prefecture in Focus: Tottori" class="tour_img">
@@ -195,7 +202,7 @@
             </div>
         </div>
 
-        <section class="top">
+        <section class="top" id="locations">
             <div class="wrapper_full">
                 <h2 class="top_title section_title">
                     Today top places to visit
@@ -343,7 +350,7 @@
                 </div>
             </div>
         </section>
-        <div class="videos">
+        <div class="videos" id="videos">
             <div class="videos_wrapper">
                 <div class="video_item"></div>
                 <iframe class="video_element" src="https://www.youtube.com/embed/URDXZSJZ2ME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
